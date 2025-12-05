@@ -6,8 +6,8 @@ TrainTrans是一个基于Python开发的智能工具，能够根据用户输入�
 `python` `pandas` `selenium` `chrome,chromedriver`
 ### 安装步骤
 #### 前提条件： Windows 10/11 操作系统，已安装 Miniconda 或 Anaconda
-1. 下载本项目仓库并解压缩chrome_related.zip。
-##### 关于chrome, chromedriver，在chrome_related.zip中提供了可行的chrome, chromedriver。如需其他版本，请访问https://googlechromelabs.github.io/chrome-for-testing/ 或 https://developer.chrome.com/docs/chromedriver
+1. 下载本项目仓库并下载chrome, chromedriver
+##### 关于chrome, chromedriver，请访问https://googlechromelabs.github.io/chrome-for-testing/ 或 https://developer.chrome.com/docs/chromedriver
 2. 创建conda虚拟环境
 ```
 # 1. 创建虚拟环境
@@ -31,3 +31,4 @@ D:\programFile\miniconda3\envs\train_env\python D:\download\TrainTrans\train_inp
 目前对跨天车次信息整合存在错误，本项目暂时无法正确计算超过24小时情形时统计数据，且车次信息可能有误
 #### 贡献指南
 欢迎通过Issue提交建议，将尽可能实现更多功能
+
